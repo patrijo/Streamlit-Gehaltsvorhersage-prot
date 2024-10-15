@@ -12,7 +12,7 @@ gehalt_20 = model.predict(jahre_20)
 print(f"Das vorhergesagte Gehalt für 20 Dienstjahre beträgt: {gehalt_20[0]:.2f} Euro")
 
 # Titel der App
-st.title("ehaltsvorhersage basierend auf Dienstjahren")
+st.title("Gehaltsvorhersage basierend auf Dienstjahren")
 
 # Slider zur Auswahl der Dienstjahre
 jahre = st.slider("Wähle die Anzahl der Dienstjahre",0,40,5)
